@@ -1,5 +1,3 @@
-"use client"
-import { useEffect } from "react";
 import RecipeCard from "./Cards/RecipeCard";
 
  const products = [
@@ -53,10 +51,7 @@ import RecipeCard from "./Cards/RecipeCard";
 
 export default function RecipesPage() {
 
-    useEffect(() =>{
-     console.log(products, 'products');
-    }, [])
-
+   
   return (
      <div>
          <div className="flex justify-center items-center">
@@ -66,7 +61,7 @@ export default function RecipesPage() {
             </div>
           </div>
           <div className="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 lg:grid-cols-4 gap-8">
-            {products?.map((product, index) =><RecipeCard key={index} product={product}/>)}
+            {products?.map((product, index) =><RecipeCard key={index} product={product} compName="recipe"/>)}
           </div>
       </div>
   )

@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function CategoryCard({category}) {
     const {name, img} = category || {}
   return (
-    <div className="mb-32">
+    <div className="mb-3">
         <div className="flex justify-center items-center">
             <div className="p-8 max-w-[300px] mx-auto bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]"
                >

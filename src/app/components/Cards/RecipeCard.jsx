@@ -6,13 +6,13 @@ import Heart from "../../../../public/images/icons/Heart.png"
 import { useState } from "react";
 
 
-export default function RecipeCard({product}) {
+export default function RecipeCard({product, compName}) {
     const [isFavorite, setIsFavorite] = useState(false)
     const {img, name, time, category} = product || {};
     const hasContent = name && time && category;
-    console.log(product)
+    const bgClass = compName === "recipe" ? "bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]" : "bg-white"
   return (
-    <div className="max-w-sm mx-auto bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 bg-gradient-to-b from-[#E7F9FD]/0 to-[#E7F9FD]"
+    <div className={`max-w-sm mx-auto bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 ${bgClass}`}
    >
         {/* image container */}
        <div className="relative h-48 w-full">
