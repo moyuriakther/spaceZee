@@ -1,6 +1,6 @@
-🌟SpaceZee
+🌟SpaceZee🌟
 
-🚀Live Link:
+🚀Live Link: https://space-zee-moyuri-akthers-projects.vercel.app/
 
 🛠️ Technologies Used
 
