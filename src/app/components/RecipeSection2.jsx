@@ -4,52 +4,52 @@ import RecipeCard from "./Cards/RecipeCard";
 
  const products = [
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Mixed Tropical Fruit Salad with Superfood Boosts",
         "img": "/images/deliciousRecipe/1.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Healthy"
     },
     {
         "name": "Big and Juicy Wagyu Beef Cheeseburger",
         "img": "/images/deliciousRecipe/2.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Western"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Healthy Japanese Fried Rice with Asparagus",
         "img": "/images/deliciousRecipe/3.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Healthy"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Cauliflower Walnut Vegetarian Taco Meat",
         "img": "/images/deliciousRecipe/4.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Eastern"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Rainbow Chicken Salad with Almond Honey Mustard Dressing",
         "img": "/images/deliciousRecipe/5.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Healthy"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Barbeque Spicy Sandwiches with Chips",
         "img": "/images/deliciousRecipe/6.png",
         "time": "30",
         "category":"Snack"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Firecracker Vegan Lettuce Wraps - Spicy!",
         "img": "/images/deliciousRecipe/7.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Seafood"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Chicken Ramen Soup with Mushroom ",
         "img": "/images/deliciousRecipe/8.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Japanese"
     },
    
 ]

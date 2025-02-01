@@ -7,7 +7,7 @@ export default function ChefSection() {
   return (
    <div>
      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center mt-16 pt-16">
-        <div className="flex justify-start items-center">
+        <div className="flex flex-col justify-start items-center">
            <div>
                 <h3 className="text-5xl font-semibold text-black">Everyone can be a chef in their own kitchen</h3>
                 <p className="text-lg md: text-xl mb-8 max-w-2xl mx-auto opacity-90 font-normal text-gray py-4">
@@ -18,15 +18,10 @@ export default function ChefSection() {
            </div>
         </div>
         <div>
-            {/* <div className="relative h-96 w-full rounded-xl overflow-hidden shodow-lg"> */}
-                <Image 
+            <Image 
                 src={ChefImage}
                 alt="Chef image"
-                // fill
-                // priority
-                // className="object-cover"
                 />
-            {/* </div>  */}
         </div>
     </div>
    </div>

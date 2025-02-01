@@ -8,43 +8,52 @@ import RecipeCard from "./Cards/RecipeCard";
         "category":"Snack"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Fresh Lime Roasted Salmon with Ginger Sauce",
         "img": "/images/recipes/2.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Fish"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Strawberry Oatmeal Pancake with Honey Syrup",
         "img": "/images/recipes/3.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Breakfast"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Fresh and Healthy Mixed Mayonnaise Salad",
         "img": "/images/recipes/4.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Healthy"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Chicken Meatballs with Cream Cheese",
         "img": "/images/recipes/5.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Meat"
     },
     {
-        "img": "/images/recipes/6.2.png",
+        "name": "Chicken and Vagitable Salad",
+        "img": "/images/recipes/6.png",
+        "time": "30",
+        "category":"Healthy"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "Fruity Pancake with Orange & Blueberry",
         "img": "/images/recipes/7.png",
         "time": "30",
-        "category":"Snack"
+        "category":"Sweet"
     },
     {
-        "name": "Big and Juicy Wagyu Beef Cheeseburger",
+        "name": "The Best Easy One Pot Chicken and Rice",
         "img": "/images/recipes/8.png",
         "time": "30",
         "category":"Snack"
+    },
+    {
+        "name": "The Creamiest Creamy Chicken and Bacon Pasta",
+        "img": "/images/recipes/9.png",
+        "time": "30",
+        "category":"Noodles"
     },
    
 ]

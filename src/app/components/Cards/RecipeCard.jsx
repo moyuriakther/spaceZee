@@ -35,8 +35,8 @@ export default function RecipeCard({product, compName}) {
             </div>
         </div>
         {/* content */}
-        {hasContent && <div className="p-6">
-            <h2 className="text-xl sm:text-sm lg:text-xl font-semibold text-black-800 mb-2">{name && name}</h2>
+        {hasContent && <div className="py-4 px-2">
+            <h2 className="text-lg sm:text-sm lg:text-xl font-semibold text-black-800 mb-2">{name && name}</h2>
            <div className="flex items-center justify-between">
                 <div className="flex items-center">
                 <span className="text-gray-600 mr-2 "><Image 
@@ -57,7 +57,7 @@ export default function RecipeCard({product, compName}) {
                     <p className="text-gray-600 font-medium">{category && category}</p>
                 </div>
 
-                {/* <span className="bg-yellow-100 text-yellow-800 text-sm font-semibold px-3 py-1 rounded-full">{category && category}</span> */}
+                <span className=""></span>
             </div>
         </div>}
     </div>
