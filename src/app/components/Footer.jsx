@@ -1,12 +1,17 @@
+import Image from "next/image";
+import logo from "../../../public/images/Foodieland.png"
 
 
 export default function Footer() {
   return (
     <footer>
-        <div className="container mx-auto md:px-12 lg:px-20 mt-16 py-8">
+        <div className="container mx-auto md:px-8 lg:px-20 mt-16 py-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="md:w-1/3 text-start ">
-                    <h2 className="text-xl font-bold italic">Foodieland.</h2>
+                    {/* <h2 className="text-xl font-bold italic">Foodieland.</h2> */}
+                    <div className="flex-shrink-0">
+                        <Image src={logo} alt="logo" height={84} width={84}/>
+                    </div>
                     <p className="text-sm mt-2 text-gray-500">Lorem ipsum dolor sit amet, consectetuipisicing elit, </p>
                 </div>
                 {/* right nav */}
@@ -15,7 +20,7 @@ export default function Footer() {
                         <li><a href="" className="hover:text-gray-900">Recipes</a></li>
                         <li><a href="" className="hover:text-gray-900">Blog</a></li>
                         <li><a href="" className="hover:text-gray-900">Contact</a></li>
-                        <li><a href="" className="hover:text-gray-900">About Us</a></li>
+                        <li><a href="/about" className="hover:text-gray-900">About Us</a></li>
                     </ul>
                 </nav>
                  </div>
